@@ -11,7 +11,7 @@ ap_startup_mentality = {
     modifier = {
         #planet_civilians_trade_produces_add = 2
         #planet_civilians_alloys_produces_add = 1
-        pop_growth_speed = -0.15
+        pop_growth_speed_decrease = 0.15
     }
     ai_weight = {
         factor = 5
