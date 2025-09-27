@@ -1,24 +1,22 @@
 ap_startup_mentality = {
+
+    custom_tooltip = ap_startup_mentality_desc
+
     potential = {
-        is_regular_empire = yes
         AND = {
             is_hive_mind = no
             is_machine_empire = no
-        }
-        OR = {
-            is_materialist = yes
-            is_fanatic_materialist = yes
+            OR = {
+                is_materialist = yes
+                is_fanatic_materialist = yes
+            }
         }
     }
+    custom_tooltip = ap_defender_of_the_galaxy_modifier_desc
     modifier = {
-        resources = {
-            category = planet_civilians
-            produces = {
-                alloy = 0.1
-		}
-	}
-
-        pop_growth_speed = 0.1
+        planet_jobs_civilians_add_trade = 2
+        planet_jobs_civilians_add_alloys = 0.1
+        pop_growth_speed = -0.15
     }
     ai_weight = {
 		modifier = {
