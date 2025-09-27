@@ -1,0 +1,6 @@
+﻿l_english:
+ ap_startup_mentality: "Startup mentality" 
+ ap_startup_mentality_desc:0 "Civilians have learned to love hussle and do not want to start families. Civilians produce 1 alloy per 100 civilians"
+
+ planet_jobs_civilians_add_alloys: "Adds alloy production for civilians"
+ planet_jobs_civilians_add_alloys_desc:0 "Adds alloy production for civilians"

@@ -1,0 +1,9 @@
+planet_jobs_civilians_add_alloys = {
+    custom_tooltip =  planet_jobs_civilians_add_alloys_desc:
+    potential = {
+        has_tradition = ap_startup_mentality
+    }
+    modifier = {
+        job_civilians_output_alloys = 0.1
+    }
+}
