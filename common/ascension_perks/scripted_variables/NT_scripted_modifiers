@@ -4,6 +4,6 @@ planet_jobs_civilians_add_alloys = {
         has_tradition = ap_startup_mentality
     }
     modifier = {
-        job_civilians_output_alloys = 0.1
+        #planet_civilians_alloys_produces_add = 0.1
     }
 }
