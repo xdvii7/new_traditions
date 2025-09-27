@@ -3,9 +3,8 @@ ap_startup_mentality = {
     custom_tooltip = ap_startup_mentality_desc
 
     potential = {
-        OR = {
-            has_ethic = ethic_materialist
-            has_ethic = ethic_fanatic_materialist
+        NOT = {
+            has_ascension_perk = ap_startup_mentality
         }
     }
     custom_tooltip = ap_startup_mentality_desc
@@ -15,15 +14,7 @@ ap_startup_mentality = {
         pop_growth_speed = -0.15
     }
     ai_weight = {
-		modifier = {
-			factor = 7
-			has_ethic = ethic_materialist
-		}
-		modifier = {
-			factor = 13
-            has_ethic = ethic_fanatic_materialist
-
-		}
+        factor = 5
 	}
 }
 
