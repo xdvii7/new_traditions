@@ -3,16 +3,12 @@ ap_startup_mentality = {
     custom_tooltip = ap_startup_mentality_desc
 
     potential = {
-        AND = {
-            is_hive_mind = no
-            is_machine_empire = no
-        }
         OR = {
             has_ethic = ethic_materialist
             has_ethic = ethic_fanatic_materialist
         }
     }
-    custom_tooltip = ap_defender_of_the_galaxy_modifier_desc
+    custom_tooltip = ap_startup_mentality_desc
     modifier = {
         #planet_civilians_trade_produces_add = 2
         #planet_civilians_alloys_produces_add = 1
@@ -21,11 +17,11 @@ ap_startup_mentality = {
     ai_weight = {
 		modifier = {
 			factor = 7
-			is_materialist = yes
+			has_ethic = ethic_materialist
 		}
 		modifier = {
 			factor = 13
-            is_fanatic_materialist = yes
+            has_ethic = ethic_fanatic_materialist
 
 		}
 	}
